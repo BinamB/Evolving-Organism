@@ -1,5 +1,7 @@
 # Evolving-Organism
+
 ![alt text](https://github.com/BinamB/Evolving-Organism/blob/master/sample.gif)
+
   This virtual organism runs using a genetic algorithm and a neural network. There were three different food we wanted to introduce: poisonous food(green), healthy food(blue) and superfood(red). The poisonous food decreases the organisms score by 1, healthy food increases the score by 1 and superfood increases the score by 5.
 The basis of this program was Evolving Simple Organism using a [Genetic Algorithm and Deep Learning from Scratch with Python by Nathan Rooy](https://nathanrooy.github.io/posts/2017-11-30/evolving-simple-organisms-using-a-genetic-algorithm-and-deep-learning/). This organism only ate one thing. The idea was to make it learn how to avoid the poisonous food and prefer one type of food over the other. 
 We made some additions to the base code and realized that when adding different types of food, the organism wasn’t “learning” anymore. We found that adding more hidden layers was the answer to the problem, so we changed from a single hidden layer to three hidden layers. Each hidden layer corresponds to a single type of food. 
